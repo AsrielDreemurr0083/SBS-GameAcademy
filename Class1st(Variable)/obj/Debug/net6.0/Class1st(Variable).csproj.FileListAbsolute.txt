@@ -1,0 +1,15 @@
+C:\Users\Administrator\Desktop\SBS-GameAcademy\Class1st(Variable)\bin\Debug\net6.0\Class1st(Variable).exe
+C:\Users\Administrator\Desktop\SBS-GameAcademy\Class1st(Variable)\bin\Debug\net6.0\Class1st(Variable).deps.json
+C:\Users\Administrator\Desktop\SBS-GameAcademy\Class1st(Variable)\bin\Debug\net6.0\Class1st(Variable).runtimeconfig.json
+C:\Users\Administrator\Desktop\SBS-GameAcademy\Class1st(Variable)\bin\Debug\net6.0\Class1st(Variable).dll
+C:\Users\Administrator\Desktop\SBS-GameAcademy\Class1st(Variable)\bin\Debug\net6.0\Class1st(Variable).pdb
+C:\Users\Administrator\Desktop\SBS-GameAcademy\Class1st(Variable)\obj\Debug\net6.0\Class1st(Variable).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\SBS-GameAcademy\Class1st(Variable)\obj\Debug\net6.0\Class1st(Variable).AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\SBS-GameAcademy\Class1st(Variable)\obj\Debug\net6.0\Class1st(Variable).AssemblyInfo.cs
+C:\Users\Administrator\Desktop\SBS-GameAcademy\Class1st(Variable)\obj\Debug\net6.0\Class1st(Variable).csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\SBS-GameAcademy\Class1st(Variable)\obj\Debug\net6.0\Class1st(Variable).sourcelink.json
+C:\Users\Administrator\Desktop\SBS-GameAcademy\Class1st(Variable)\obj\Debug\net6.0\Class1st(Variable).dll
+C:\Users\Administrator\Desktop\SBS-GameAcademy\Class1st(Variable)\obj\Debug\net6.0\refint\Class1st(Variable).dll
+C:\Users\Administrator\Desktop\SBS-GameAcademy\Class1st(Variable)\obj\Debug\net6.0\Class1st(Variable).pdb
+C:\Users\Administrator\Desktop\SBS-GameAcademy\Class1st(Variable)\obj\Debug\net6.0\Class1st(Variable).genruntimeconfig.cache
+C:\Users\Administrator\Desktop\SBS-GameAcademy\Class1st(Variable)\obj\Debug\net6.0\ref\Class1st(Variable).dll
