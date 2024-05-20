@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class2th(Bit)", "..\Class2t
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class3th (Conditional Statement)", "..\Class3th (Conditional Statement)\Class3th (Conditional Statement).csproj", "{AAF00BAB-F85E-4FC9-A9E9-01AD3443BAB7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class4th (Iternation Statement)", "..\Class4th (Iternation Statement)\Class4th (Iternation Statement).csproj", "{307BA3C3-4F6F-4ED3-94C4-96671B944C59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class4th (Iternation Statement)", "..\Class4th (Iternation Statement)\Class4th (Iternation Statement).csproj", "{307BA3C3-4F6F-4ED3-94C4-96671B944C59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class5th (Arrangement)", "..\Class5th (Arrangement)\Class5th (Arrangement).csproj", "{F45C86C0-549E-4BEB-A8AE-CE4FF5749BDB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{307BA3C3-4F6F-4ED3-94C4-96671B944C59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{307BA3C3-4F6F-4ED3-94C4-96671B944C59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{307BA3C3-4F6F-4ED3-94C4-96671B944C59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F45C86C0-549E-4BEB-A8AE-CE4FF5749BDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F45C86C0-549E-4BEB-A8AE-CE4FF5749BDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F45C86C0-549E-4BEB-A8AE-CE4FF5749BDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F45C86C0-549E-4BEB-A8AE-CE4FF5749BDB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

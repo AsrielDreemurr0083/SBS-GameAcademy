@@ -1,4 +1,7 @@
-﻿using System.ComponentModel;
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Windows.Markup;
 
 namespace Program
 {
@@ -9,8 +12,9 @@ namespace Program
         // Main 함수는 프로그램의 진입점 역할을 수행하는 함수입니다.
         static void Main(string[] args)
         {
-            
+               
+
         }
     }
-    #endregion
+        #endregion
 }
