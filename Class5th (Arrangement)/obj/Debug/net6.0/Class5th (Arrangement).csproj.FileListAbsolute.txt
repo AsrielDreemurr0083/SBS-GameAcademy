@@ -1,0 +1,15 @@
+C:\Users\Administrator\Desktop\SBS-GameAcademy\Class5th (Arrangement)\bin\Debug\net6.0\Class5th (Arrangement).exe
+C:\Users\Administrator\Desktop\SBS-GameAcademy\Class5th (Arrangement)\bin\Debug\net6.0\Class5th (Arrangement).deps.json
+C:\Users\Administrator\Desktop\SBS-GameAcademy\Class5th (Arrangement)\bin\Debug\net6.0\Class5th (Arrangement).runtimeconfig.json
+C:\Users\Administrator\Desktop\SBS-GameAcademy\Class5th (Arrangement)\bin\Debug\net6.0\Class5th (Arrangement).dll
+C:\Users\Administrator\Desktop\SBS-GameAcademy\Class5th (Arrangement)\bin\Debug\net6.0\Class5th (Arrangement).pdb
+C:\Users\Administrator\Desktop\SBS-GameAcademy\Class5th (Arrangement)\obj\Debug\net6.0\Class5th (Arrangement).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\SBS-GameAcademy\Class5th (Arrangement)\obj\Debug\net6.0\Class5th (Arrangement).AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\SBS-GameAcademy\Class5th (Arrangement)\obj\Debug\net6.0\Class5th (Arrangement).AssemblyInfo.cs
+C:\Users\Administrator\Desktop\SBS-GameAcademy\Class5th (Arrangement)\obj\Debug\net6.0\Class5th (Arrangement).csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\SBS-GameAcademy\Class5th (Arrangement)\obj\Debug\net6.0\Class5th (Arrangement).sourcelink.json
+C:\Users\Administrator\Desktop\SBS-GameAcademy\Class5th (Arrangement)\obj\Debug\net6.0\Class5th (Arrangement).dll
+C:\Users\Administrator\Desktop\SBS-GameAcademy\Class5th (Arrangement)\obj\Debug\net6.0\refint\Class5th (Arrangement).dll
+C:\Users\Administrator\Desktop\SBS-GameAcademy\Class5th (Arrangement)\obj\Debug\net6.0\Class5th (Arrangement).pdb
+C:\Users\Administrator\Desktop\SBS-GameAcademy\Class5th (Arrangement)\obj\Debug\net6.0\Class5th (Arrangement).genruntimeconfig.cache
+C:\Users\Administrator\Desktop\SBS-GameAcademy\Class5th (Arrangement)\obj\Debug\net6.0\ref\Class5th (Arrangement).dll
