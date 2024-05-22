@@ -1,0 +1,15 @@
+C:\Users\Administrator\Desktop\SBS-GameAcademy\Class6th (Function)\bin\Debug\net6.0\Class6th (Function).exe
+C:\Users\Administrator\Desktop\SBS-GameAcademy\Class6th (Function)\bin\Debug\net6.0\Class6th (Function).deps.json
+C:\Users\Administrator\Desktop\SBS-GameAcademy\Class6th (Function)\bin\Debug\net6.0\Class6th (Function).runtimeconfig.json
+C:\Users\Administrator\Desktop\SBS-GameAcademy\Class6th (Function)\bin\Debug\net6.0\Class6th (Function).dll
+C:\Users\Administrator\Desktop\SBS-GameAcademy\Class6th (Function)\bin\Debug\net6.0\Class6th (Function).pdb
+C:\Users\Administrator\Desktop\SBS-GameAcademy\Class6th (Function)\obj\Debug\net6.0\Class6th (Function).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\SBS-GameAcademy\Class6th (Function)\obj\Debug\net6.0\Class6th (Function).AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\SBS-GameAcademy\Class6th (Function)\obj\Debug\net6.0\Class6th (Function).AssemblyInfo.cs
+C:\Users\Administrator\Desktop\SBS-GameAcademy\Class6th (Function)\obj\Debug\net6.0\Class6th (Function).csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\SBS-GameAcademy\Class6th (Function)\obj\Debug\net6.0\Class6th (Function).sourcelink.json
+C:\Users\Administrator\Desktop\SBS-GameAcademy\Class6th (Function)\obj\Debug\net6.0\Class6th (Function).dll
+C:\Users\Administrator\Desktop\SBS-GameAcademy\Class6th (Function)\obj\Debug\net6.0\refint\Class6th (Function).dll
+C:\Users\Administrator\Desktop\SBS-GameAcademy\Class6th (Function)\obj\Debug\net6.0\Class6th (Function).pdb
+C:\Users\Administrator\Desktop\SBS-GameAcademy\Class6th (Function)\obj\Debug\net6.0\Class6th (Function).genruntimeconfig.cache
+C:\Users\Administrator\Desktop\SBS-GameAcademy\Class6th (Function)\obj\Debug\net6.0\ref\Class6th (Function).dll
