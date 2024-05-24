@@ -5,7 +5,7 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Program
+namespace Class8th__Polymorphism_
 {
     internal class Marine : Unit
     {

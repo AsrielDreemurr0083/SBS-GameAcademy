@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Program
+namespace Class8th__Polymorphism_
 {
     internal class Unit
     {
