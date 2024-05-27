@@ -19,9 +19,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class6th (Function)", "..\C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class7th (Class)", "..\Class7th (Class)\Class7th (Class).csproj", "{B823F3E1-1657-4755-8437-BB45492E4515}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class8th (Polymorphism)", "..\Class8th (Polymophism)\Class8th (Polymorphism).csproj", "{2B2F78DC-E56A-4F84-A871-A5FAAA09EA50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class8th (Polymorphism)", "..\Class8th (Polymophism)\Class8th (Polymorphism).csproj", "{2B2F78DC-E56A-4F84-A871-A5FAAA09EA50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class9th (Random)", "..\Class9th (Random)\Class9th (Random).csproj", "{46A286F3-4AB9-471C-8BA4-5EBA532F6E70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class9th (Random)", "..\Class9th (Random)\Class9th (Random).csproj", "{46A286F3-4AB9-471C-8BA4-5EBA532F6E70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class10th (Collection)", "..\Class10th (Collection)\Class10th (Collection).csproj", "{0A9DDAB7-B14F-4765-B5CF-0C01011EFF4E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{46A286F3-4AB9-471C-8BA4-5EBA532F6E70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46A286F3-4AB9-471C-8BA4-5EBA532F6E70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46A286F3-4AB9-471C-8BA4-5EBA532F6E70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A9DDAB7-B14F-4765-B5CF-0C01011EFF4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A9DDAB7-B14F-4765-B5CF-0C01011EFF4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A9DDAB7-B14F-4765-B5CF-0C01011EFF4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A9DDAB7-B14F-4765-B5CF-0C01011EFF4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
