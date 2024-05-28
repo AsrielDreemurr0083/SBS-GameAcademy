@@ -94,7 +94,7 @@
         {
             #region 랜덤 함수
 
-            //Random random = new Random();
+            Random random = new Random();
 
 
             //int result = random.Next(0, 5);
