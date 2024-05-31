@@ -205,59 +205,59 @@
             //}
 
             //정답
-            //int[,] maze = new int[10, 10]
-            //{
-            //{ 1, 2, 1, 1, 1, 1, 1, 1, 1, 1},
-            //{ 1, 0, 0, 0, 0, 0, 0, 0, 0, 1},
-            //{ 1, 0, 1, 1, 1, 1, 1, 1, 0, 1},
-            //{ 1, 0, 1, 1, 1, 1, 1, 1, 0, 1},
-            //{ 1, 0, 1, 1, 1, 1, 1, 1, 0, 1},
-            //{ 1, 0, 1, 1, 1, 1, 1, 1, 0, 1},
-            //{ 1, 0, 1, 1, 1, 1, 1, 1, 0, 1},
-            //{ 1, 0, 1, 1, 1, 1, 1, 1, 0, 1},
-            //{ 1, 0, 0, 0, 0, 0, 0, 0, 0, 1},
-            //{ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
-            //};
-            //
-            //ConsoleKeyInfo key;
-            //Character character = new Character();
-            //
-            //character.Shape = "★";
-            //character.X = 6;
-            //character.Y = 1;
-            //
-            //bool state = true;
-            //
-            //while (state)
-            //{
-            //    for (int i = 0; i < maze.GetLength(0); i++)
-            //    {
-            //        for (int j = 0; j < maze.GetLength(1); j++)
-            //        {
-            //            if (maze[i, j] == 0)
-            //                {
-            //                    Console.Write("  ");
-            //                }
-            //                else if (maze[i, j] == 1)
-            //                {
-            //                    Console.Write("■");
-            //                }
-            //                else if (maze[i, j] == 2)
-            //                {
-            //                    Console.Write("※");
-            //                }
-            //            }
-            //            Console.WriteLine();
-            //        }
-            //    Console.SetCursorPosition(character.X, character.Y);
-            //    Console.Write(character.Shape);
-            //
-            //    key = Console.ReadKey();
-            //
-            //    character.Move(maze, key, ref state);
-            //
-            //    Console.Clear();
-            //}
+            int[,] maze = new int[10, 10]
+            {
+            { 1, 2, 1, 1, 1, 1, 1, 1, 1, 1},
+            { 1, 0, 0, 0, 0, 0, 0, 0, 0, 1},
+            { 1, 0, 1, 1, 1, 1, 1, 1, 0, 1},
+            { 1, 0, 1, 1, 1, 1, 1, 1, 0, 1},
+            { 1, 0, 1, 1, 1, 1, 1, 1, 0, 1},
+            { 1, 0, 1, 1, 1, 1, 1, 1, 0, 1},
+            { 1, 0, 1, 1, 1, 1, 1, 1, 0, 1},
+            { 1, 0, 1, 1, 1, 1, 1, 1, 0, 1},
+            { 1, 0, 0, 0, 0, 0, 0, 0, 0, 1},
+            { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
+            };
+            
+            ConsoleKeyInfo key;
+            Character character = new Character();
+            
+            character.Shape = "★";
+            character.X = 6;
+            character.Y = 1;
+            
+            bool state = true;
+            
+            while (state)
+            {
+                for (int i = 0; i < maze.GetLength(0); i++)
+                {
+                    for (int j = 0; j < maze.GetLength(1); j++)
+                    {
+                        if (maze[i, j] == 0)
+                            {
+                                Console.Write("  ");
+                            }
+                            else if (maze[i, j] == 1)
+                            {
+                                Console.Write("■");
+                            }
+                            else if (maze[i, j] == 2)
+                            {
+                                Console.Write("※");
+                            }
+                        }
+                        Console.WriteLine();
+                    }
+                Console.SetCursorPosition(character.X, character.Y);
+                Console.Write(character.Shape);
+            
+                key = Console.ReadKey();
+            
+                character.Move(maze, key, ref state);
+            
+                Console.Clear();
+            }
 
             #endregion
 

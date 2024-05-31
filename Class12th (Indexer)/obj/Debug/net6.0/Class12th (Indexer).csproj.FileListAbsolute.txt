@@ -1,0 +1,15 @@
+C:\Users\Administrator\Desktop\SBS-GameAcademy\Class12th (Indexer)\bin\Debug\net6.0\Class12th (Indexer).exe
+C:\Users\Administrator\Desktop\SBS-GameAcademy\Class12th (Indexer)\bin\Debug\net6.0\Class12th (Indexer).deps.json
+C:\Users\Administrator\Desktop\SBS-GameAcademy\Class12th (Indexer)\bin\Debug\net6.0\Class12th (Indexer).runtimeconfig.json
+C:\Users\Administrator\Desktop\SBS-GameAcademy\Class12th (Indexer)\bin\Debug\net6.0\Class12th (Indexer).dll
+C:\Users\Administrator\Desktop\SBS-GameAcademy\Class12th (Indexer)\bin\Debug\net6.0\Class12th (Indexer).pdb
+C:\Users\Administrator\Desktop\SBS-GameAcademy\Class12th (Indexer)\obj\Debug\net6.0\Class12th (Indexer).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\SBS-GameAcademy\Class12th (Indexer)\obj\Debug\net6.0\Class12th (Indexer).AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\SBS-GameAcademy\Class12th (Indexer)\obj\Debug\net6.0\Class12th (Indexer).AssemblyInfo.cs
+C:\Users\Administrator\Desktop\SBS-GameAcademy\Class12th (Indexer)\obj\Debug\net6.0\Class12th (Indexer).csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\SBS-GameAcademy\Class12th (Indexer)\obj\Debug\net6.0\Class12th (Indexer).sourcelink.json
+C:\Users\Administrator\Desktop\SBS-GameAcademy\Class12th (Indexer)\obj\Debug\net6.0\Class12th (Indexer).dll
+C:\Users\Administrator\Desktop\SBS-GameAcademy\Class12th (Indexer)\obj\Debug\net6.0\refint\Class12th (Indexer).dll
+C:\Users\Administrator\Desktop\SBS-GameAcademy\Class12th (Indexer)\obj\Debug\net6.0\Class12th (Indexer).pdb
+C:\Users\Administrator\Desktop\SBS-GameAcademy\Class12th (Indexer)\obj\Debug\net6.0\Class12th (Indexer).genruntimeconfig.cache
+C:\Users\Administrator\Desktop\SBS-GameAcademy\Class12th (Indexer)\obj\Debug\net6.0\ref\Class12th (Indexer).dll
