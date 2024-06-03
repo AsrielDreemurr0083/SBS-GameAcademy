@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\Game Project\\Game Project.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\SBS-GameAcademy\\Game Project\\Game Project.csproj",
       "projectName": "Game Project",
-      "projectPath": "C:\\Users\\Administrator\\Desktop\\Game Project\\Game Project.csproj",
+      "projectPath": "C:\\Users\\Administrator\\Desktop\\SBS-GameAcademy\\Game Project\\Game Project.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\Desktop\\Game Project\\obj\\",
+      "outputPath": "C:\\Users\\Administrator\\Desktop\\SBS-GameAcademy\\Game Project\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
