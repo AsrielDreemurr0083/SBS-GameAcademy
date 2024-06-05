@@ -59,6 +59,7 @@
             //}
 
             //2차 코드
+      
             switch (key.Key)
             {
                 case ConsoleKey.UpArrow:
@@ -115,6 +116,10 @@
             }
             
         }
+        public bool IsCollision(Ghost ghost)
+        {
+            return X == ghost.X && Y == ghost.Y;
+        }
     }
     
     class Ghost
@@ -138,18 +143,53 @@
             get { return shape; }
             set { shape = value; }
         }
-        
-        
+        public void Move(int[,] wall)
+        {
+            Random random = new Random();
+            int direction = random.Next(4);
 
+            // 무작위 방향 결정 (0: 상, 1: 하, 2: 좌, 3: 우)
+            if (direction == 0 && wall[y - 1, x / 2] != 1)
+            {
+                y--;
+                if (wall[y, x / 2] != 3 && wall[y, x / 2] != 4 && wall[y, x / 2] != 2)
+                {
+                    wall[y, x / 2] = 0; // 사탕을 먹지 않은 상태에서만 벽을 통과하면서 벽을 유지합니다.
+                }
+            }
+            else if (direction == 1 && wall[y + 1, x / 2] != 1)
+            {
+                y++;
+                if (wall[y, x / 2] != 3 && wall[y, x / 2] != 4 && wall[y, x / 2] != 2)
+                {
+                    wall[y, x / 2] = 0; // 사탕을 먹지 않은 상태에서만 벽을 통과하면서 벽을 유지합니다.
+                }
+            }
+
+            // 좌우로 무작위로 2칸씩 이동
+            if (direction == 2 && wall[y, x / 2 - 1] != 1)
+            {
+                x -= 2;
+                if (wall[y, x / 2] != 3 && wall[y, x / 2] != 4 && wall[y, x / 2] != 2)
+                {
+                    wall[y, x / 2] = 0; // 사탕을 먹지 않은 상태에서만 벽을 통과하면서 벽을 유지합니다.
+                }
+            }
+            else if (direction == 3 && wall[y, x / 2 + 1] != 1)
+            {
+                x += 2;
+                if (wall[y, x / 2] != 3 && wall[y, x / 2] != 4 && wall[y, x / 2] != 2)
+                {
+                    wall[y, x / 2] = 0; // 사탕을 먹지 않은 상태에서만 벽을 통과하면서 벽을 유지합니다.
+                }
+            }
+        }
     }
 
     internal class Program
-    {
-
+    {       
         static void Main(string[] args)
         {
-            
-
 
             int[,] wall = new int[21, 21]
             {
@@ -213,8 +253,8 @@
             Ghost ghost1 = new Ghost();
             ghost1.Shape = "◆";            
             ghost1.X = 20;
-            ghost1.Y = 10;
-            
+            ghost1.Y = 10;          
+
             Ghost ghost2 = new Ghost();
             ghost2.Shape = "◆";
             ghost2.X = 18;
@@ -229,15 +269,28 @@
 
 
             bool state = true;
-            
-            
-            
+            Ghost[] ghosts = { ghost1, ghost2, ghost3 };
+
             while (state)
             {
+                foreach (var ghost in ghosts)
+                {
+                    ghost.Move(wall);
+                }
+                foreach (var ghost in ghosts)
+                {
+                    if (character.IsCollision(ghost))
+                    {
+                        state = false;
+                        
+                        break;                       
+                    }
+                }
                 for (int i = 0; i < wall.GetLength(0); i++)
                 {
                     for (int j = 0; j < wall.GetLength(1); j++)
                     {
+                        
                         if (wall[i, j] == 0)
                         {
                             Console.Write("  ");
@@ -279,11 +332,10 @@
                 Console.SetCursorPosition(ghost2.X, ghost2.Y);
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.Write(ghost2.Shape);
-
+                
                 Console.SetCursorPosition(ghost3.X, ghost3.Y);
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.Write(ghost3.Shape);
-
 
                 Console.SetCursorPosition(character.X, character.Y);
                 Console.ForegroundColor = ConsoleColor.Yellow;
@@ -306,6 +358,7 @@
                 character.Move(wall, key, ref state);
                 
                 Console.Clear();
+
                 
             }            
         }
