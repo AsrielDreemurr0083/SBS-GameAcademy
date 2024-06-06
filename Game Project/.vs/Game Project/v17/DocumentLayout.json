@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Asriel Dreemurr\\Desktop\\\uC0C8 \uD3F4\uB354 (2)\\SBS-GameAcademy\\Game Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{821316E9-3B63-4A76-8D27-7157F2FF8C19}|Game Project.csproj|c:\\users\\asriel dreemurr\\desktop\\\uC0C8 \uD3F4\uB354 (2)\\sbs-gameacademy\\game project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{821316E9-3B63-4A76-8D27-7157F2FF8C19}|Game Project.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Asriel Dreemurr\\Desktop\\\uC0C8 \uD3F4\uB354 (2)\\SBS-GameAcademy\\Game Project\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Asriel Dreemurr\\Desktop\\\uC0C8 \uD3F4\uB354 (2)\\SBS-GameAcademy\\Game Project\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAANYAAAAAAAAAAAAswFgBAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T10:22:51.841Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
