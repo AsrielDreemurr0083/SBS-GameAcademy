@@ -341,6 +341,46 @@ namespace Game_Project
 
     static void Main(string[] args)
         {
+        bool startscreen = false;
+        
+
+        while(!startscreen)
+        {
+            Console.Clear();
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine("     ===================================================================");
+            Console.WriteLine("         #####     #       ####             ##    ##     #    ##    #    ");
+            Console.WriteLine("         #    #   # #     #    #            # #  # #    # #   # #   #    ");
+            Console.WriteLine("         #####   #   #    #                 #  ##  #   #   #  #  #  #    ");
+            Console.WriteLine("         #      #######   #    #            #      #  ####### #   # #    ");
+            Console.WriteLine("         #      #     #    ####             #      #  #     # #    ##    ");
+            Console.WriteLine("     ===================================================================");
+            Console.WriteLine("                               1. 게임 시작");
+            Console.WriteLine("                               2. 게임 종료");
+            Console.WriteLine("     ===================================================================");
+            Console.Write("                           메뉴를 선택하세요: ");
+            
+            string  input = Console.ReadLine();
+
+            switch(input)
+            {
+                case "1":
+                    startscreen = true; 
+                    break;
+                case "2":
+                    Console.WriteLine("게임을 종료합니다.");
+                    return;
+                default:
+                    Console.WriteLine("잘못된 입력입니다. 다시 선택해주세요.");
+                    Console.ReadKey();
+                    break;
+            }
+            Console.Clear() ;
+        }
+
 
         int[,] wall = new int[21, 21]
             {
@@ -421,13 +461,22 @@ namespace Game_Project
 
             bool state = true;
             Game_Project.Ghost[] ghosts = { ghost1, ghost2, ghost3 };
+            Random random = new Random();
 
             while (state)
             {
-                foreach (var ghost in ghosts)
+               // foreach (var ghost in ghosts)
+               // {
+               //   ghost.Move(wall, character, ghosts);
+               // }
+
+               int rand = random.Next(1, ghosts.Length + 1);
+
+                for (int i = 0; i < rand; i++)
                 {
-                ghost.Move(wall, character, ghosts);
-                }
+                   ghosts[i].Move(wall, character, ghosts);
+                } 
+
                 foreach (var ghost in ghosts)
                 {
                     if (character.IsCollision(ghost))
@@ -437,7 +486,66 @@ namespace Game_Project
                         break;                       
                     }
                 }
-                for (int i = 0; i < wall.GetLength(0); i++)
+
+            bool gameover = false;
+            foreach (var ghost in ghosts)
+            {
+                if (character.IsCollision(ghost))
+                {
+                    gameover = true;
+                    break;
+                }
+            }
+
+            if (gameover)
+            {
+                Console.Clear();
+                Console.WriteLine();
+                Console.WriteLine();
+                Console.WriteLine();
+                Console.WriteLine();
+                Console.WriteLine("==============================================================================");
+                Console.WriteLine("     ####       #      ##    ##  ######       ####   #     #  ######  #####   ");
+                Console.WriteLine("    #          # #     # #  # #  #           #    #  #     #  #       #    #  ");
+                Console.WriteLine("    #  ###    #   #    #  ##  #  ######      #    #   #   #   ######  #####   ");
+                Console.WriteLine("    #    #   #######   #      #  #           #    #    # #    #       #    #  ");
+                Console.WriteLine("     ####   #       #  #      #  ######       ####      #     ######  #    #  ");
+                Console.WriteLine("==============================================================================");
+                Console.WriteLine("                                 1. 다시 시작");
+                Console.WriteLine("                                 2. 게임 종료");
+                Console.WriteLine("==============================================================================");
+                Console.Write("                               메뉴를 선택하세요: ");
+                
+                string input = Console.ReadLine();
+
+                switch (input)
+                {
+                    case "1":
+                        // 게임 다시 시작 로직
+                        // 필요한 변수 및 객체 초기화
+                        character.X = 20;
+                        character.Y = 13;
+                        ghost1.X = 20;
+                        ghost1.Y = 10;
+                        ghost2.X = 18;
+                        ghost2.Y = 10;
+                        ghost3.X = 22;
+                        ghost3.Y = 10;
+                        state = true;
+                        break;
+                    case "2":
+                        Console.WriteLine("게임을 종료합니다.");
+                        return;
+                    default:
+                        Console.WriteLine("잘못된 입력입니다. 게임을 종료합니다.");
+                        return;
+                }
+                Console.Clear();
+            }
+
+
+
+            for (int i = 0; i < wall.GetLength(0); i++)
                 {
                     for (int j = 0; j < wall.GetLength(1); j++)
                     {
@@ -475,7 +583,10 @@ namespace Game_Project
 
                     }
                     Console.WriteLine();
+
                 }
+
+
                 Console.SetCursorPosition(ghost1.X, ghost1.Y);
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.Write(ghost1.Shape);
@@ -507,10 +618,9 @@ namespace Game_Project
  
                 Console.ResetColor();
                 character.Move(wall, key, ref state);
-                
+                              
                 Console.Clear();
 
-                
             }          
             
         }
